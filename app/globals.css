@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+  position: relative;
+  white-space: pre-wrap;
+  word-break: keep-all;
+}
+
+@font-face {
+  font-family: "Pretendard-regular";
+  src: url("./pretendard/public/static/Pretendard-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Pretendard-medium";
+  src: url("./pretendard/public/static/Pretendard-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Pretendard-semibold";
+  src: url("./pretendard/public/static/Pretendard-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Pretendard-bold";
+  src: url("./pretendard/public/static/Pretendard-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+
+.f-pretendard-r {
+  font-family: "Pretendard-regular", sans-serif;
+}
+.f-pretendard-m {
+  font-family: "Pretendard-medium", sans-serif;
+}
+.f-pretendard-sm {
+  font-family: "Pretendard-semibold", sans-serif;
+}
+.f-pretendard-b {
+  font-family: "Pretendard-bold", sans-serif;
+}
+
+
+
+.hero-bg{
+  background-image: linear-gradient(270deg, #b5d9f5 0%, #cce5fa 28%, #ddedfd 64%, #e3f1ff 100%);
+}
+
+@layer utilities {
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.menu-enter {
+  animation: slideDown 0.3s forwards;
+}
+
+.menu-exit {
+  animation: slideUp 0.3s forwards;
+}
+
+
+/* ------------------------------------------------ Event Auto Scroller Section Start ---------  */
+.comm {
+  animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
