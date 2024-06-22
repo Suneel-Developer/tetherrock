@@ -112,6 +112,19 @@ const PartnerExchanges = ({ text }) => {
             limitOrder: "0.0055%",
             marketOrder: "0.021%",
             link: "/weex-details",
+        },
+
+        {
+            name: "Kucoin",
+            img: "/assets/kucoin-exchange.png",
+            popularity: "임시 중단 ",
+            tetherrcokPick: "",
+            avgPayback: "133 만원",
+            payback: "60%",
+            limitOrder: "0.0055%",
+            marketOrder: "0.021%",
+            link: "#",
+            overlay: "😭 꽉찼어요!"
         }
         
     ];
@@ -125,7 +138,7 @@ const PartnerExchanges = ({ text }) => {
                 </p>
                 <div className='mt-[10px] gap-[11px] grid grid-cols-1 md:grid-cols-2 slg:grid-cols-3'>
                     {exchanges.map((exchange, index) => (
-                        <a href={exchange.link} key={index}>
+                        <a href={exchange.link} key={index} className="relative">
                             <div className='bg-white pt-[19px] relative px-5 pb-[25px] overflow-hidden flex flex-col xsm:flex-row md:flex-col rounded-xl border border-gray-100'>
                                 <div className='block'>
                                     <div className='flex items-start'>
@@ -160,6 +173,11 @@ const PartnerExchanges = ({ text }) => {
                                     </div>
                                 </div>
                             </div>
+                            {exchange.overlay && (
+                                <div className="absolute inset-0 bg-black bg-opacity-75 flex justify-center items-center rounded-xl">
+                                    <p className="text-white text-lg f-pretendard-b">{exchange.overlay}</p>
+                                </div>
+                            )}
                         </a>
                     ))}
                 </div>

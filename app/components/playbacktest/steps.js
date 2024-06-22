@@ -85,22 +85,6 @@ const Steps = () => {
                 {currentStep === 4 && <Step5 selectedExchange={selectedExchange} seed={seed} leverage={leverage} frequency={frequency} />}
             </div>
 
-            <div className="navigation-buttons flex justify-between mt-4">
-                <button
-                    onClick={handleBack}
-                    disabled={currentStep === 0}
-                    className={`px-4 py-2 rounded ${currentStep === 0 ? 'bg-gray-400' : 'bg-blue-500 text-white'}`}
-                >
-                    Back
-                </button>
-                <button
-                    onClick={handleNext}
-                    disabled={currentStep === stepTitles.length - 1}
-                    className={`px-4 py-2 rounded ${currentStep === stepTitles.length - 1 ? 'bg-gray-400' : 'bg-blue-500 text-white'}`}
-                >
-                    Next
-                </button>
-            </div>
         </div>
     );
 }

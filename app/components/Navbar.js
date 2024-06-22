@@ -51,7 +51,7 @@ const Navbar = () => {
                             <li><Link href="/exchange" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>공식 제휴 거래소</Link></li>
                             <li><Link href="/service" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>서비스 소개</Link></li>
                             <li><Link href="/vip" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>VIP</Link></li>
-                            <li><Link href="/playback-test" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>페이백 테스트</Link></li>
+                            <li><Link href="/payback-test" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>페이백 테스트</Link></li>
                         </ul>
                     </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
                                     <li className='mt-8'><Link href="/exchange" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>공식 제휴 거래소</Link></li>
                                     <li className='mt-8'><Link href="/service" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>서비스 소개</Link></li>
                                     <li className='mt-8'><Link href="/vip" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>VIP</Link></li>
-                                    <li className='mt-8'><Link href="/playback-test" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>페이백 테스트</Link></li>
+                                    <li className='mt-8'><Link href="/payback-test" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>페이백 테스트</Link></li>
                                 </ul>
                             </div>
                         </div>
