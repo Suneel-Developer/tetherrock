@@ -17,7 +17,8 @@ const Step1 = ({ selectedExchange, handleExchangeSelect, handleNext }) => {
 
     return (
         <div className='pt-10 bg-white pb-[60px] max-w-[660px] w-full mx-auto px-1'>
-            <h2 className='text-center text-xl mx-auto f-pretendard-b tracking-[-0.8px]'> You can check it by selecting only the one exchange</h2>
+            <h2 className='text-center text-xl mx-auto f-pretendard-b tracking-[-0.8px]'>  지금 거래하시는 한 거래소만 <br />
+                선택해주시면 확인할 수 있어요</h2>
             <ul className='max-w-[352px] slg:max-w-[580px] gap-5 mx-auto mt-7 grid grid-cols-2 slg:grid-cols-3'>
                 {exchanges.map((exchange) => (
                     <li
@@ -36,8 +37,7 @@ const Step1 = ({ selectedExchange, handleExchangeSelect, handleNext }) => {
                     className={`w-full slg:w-[351px] h-[42px] flex justify-center items-center text-sm f-pretendard-m rounded-[30px] ${selectedExchange ? 'bg-black text-white' : 'bg-[#f0f2f5] text-[#7c8389]'}`}
                     disabled={!selectedExchange}
                 >
-                    Next
-                </button>
+                    다음                </button>
             </div>
         </div>
     );

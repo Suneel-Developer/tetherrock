@@ -7,11 +7,11 @@ import Step4 from './steps/step4';
 import Step5 from './steps/step5';
 
 const stepTitles = [
-    "Select the exchange you want to check",
-    "How much is your entry seed?",
-    "What is the avg. leverage you are using?",
-    "How much do you usually trade?",
-    "Tetherrock has confirmed the payback you can receive"
+    "확인하고 싶은 거래소를 선택해 주세요",
+    "진입 시드는 얼마나 되시나요?",
+    "평균 레버리지는 어느 정도 사용하고 계신가요?",
+    "평소에 매매는 어느 정도 하시는 편이신가요?",
+    "받으실 수 있는 페이백을 테더락이 확인했어요"
 ];
 
 const Steps = () => {
@@ -61,7 +61,7 @@ const Steps = () => {
         <div>
             <div className="pt-10 pb-12 bg-white max-w-[660px] mx-auto w-full mb-5">
                 <ul className="flex items-start justify-center mx-auto">
-                    {["Exchanges", "Entry Seed", "Leverage", "Trading Frequency", "Results"].map((label, index) => (
+                    {["거래소선택", "진입시드 분석", "레버리지분석", "매매빈도분석", "결과"].map((label, index) => (
                         <React.Fragment key={index}>
                             <li className="flex flex-col items-center justify-center w-6">
                                 <div className={`w-5 xxsm:w-7 h-5 xxsm:h-7 rounded-full flex justify-center items-center f-pretendard-b text-sm xxsm:text-base ${getStepClass(index)}`}>{index + 1}</div>

@@ -6,9 +6,9 @@ const Table = () => {
             <ul className='pt-9 slg:pt-[26px] pr-3 slg:pr-8 pb-[14px] slg:pb-[6px] pl-3 slg:pl-[26px] rounded-xl bg-white shadow-thumbnailshadow'>
                 <li className='pl-[22px] slg:pl-[90px] pr-[25px] slg:pr-[121px]'>
                     <div className='pb-[18px] slg:pb-[9px] flex justify-between items-center gap-2'>
-                        <p className='text-lg slg:text-xl f-pretendard-b text-center'>Level</p>
-                        <p className='text-lg slg:text-xl f-pretendard-b text-center'>Cumulative amount</p>
-                        <p className='text-lg slg:text-xl f-pretendard-b text-center'>Payback Rate</p>
+                        <p className='text-lg slg:text-xl f-pretendard-b text-center'>등급</p>
+                        <p className='text-lg slg:text-xl f-pretendard-b text-center'>VIP 조건</p>
+                        <p className='text-lg slg:text-xl f-pretendard-b text-center'>혜택</p>
                     </div>
                 </li>
 
@@ -18,7 +18,7 @@ const Table = () => {
                         <p className='w-auto slg:w-[210px] relative slg:left-[23px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'> 10,000 USDT</p>
                         <p className='w-auto slg:w-[165px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'>
                             <span className='border-b-2 border-[#1aa0ee] f-pretendard-b text-[#1aa0ee] mr-1'>1%</span>
-                            increase
+                            상향
                         </p>
                     </div>
                 </li>
@@ -28,7 +28,7 @@ const Table = () => {
                         <p className='w-auto slg:w-[210px] relative slg:left-[23px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'> 30,000 USDT</p>
                         <p className='w-auto slg:w-[165px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'>
                             <span className='border-b-2 border-[#1aa0ee] f-pretendard-b text-[#1aa0ee] mr-1'>1.5%</span>
-                            increase
+                            상향
                         </p>
                     </div>
                 </li>
@@ -38,7 +38,7 @@ const Table = () => {
                         <p className='w-auto slg:w-[210px] relative slg:left-[23px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'> 50,000 USDT</p>
                         <p className='w-auto slg:w-[165px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'>
                             <span className='border-b-2 border-[#1aa0ee] f-pretendard-b text-[#1aa0ee] mr-1'>2%</span>
-                            increase
+                            상향
                         </p>
                     </div>
                 </li>
@@ -49,7 +49,7 @@ const Table = () => {
                         <p className='w-auto slg:w-[210px] relative slg:left-[23px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'> 100,000 USDT</p>
                         <p className='w-auto slg:w-[165px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'>
                             <span className='border-b-2 border-[#1aa0ee] f-pretendard-b text-[#1aa0ee] mr-1'>2.5%</span>
-                            increase
+                            상향
                         </p>
                     </div>
                 </li>
@@ -60,7 +60,7 @@ const Table = () => {
                         <p className='w-auto slg:w-[210px] relative slg:left-[23px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'> 200,000 USDT</p>
                         <p className='w-auto slg:w-[165px] text-sm slg:text-lg tracking-[-0.5px] f-pretendard-m whitespace-nowrap text-center'>
                             <span className='border-b-2 border-[#1aa0ee] f-pretendard-b text-[#1aa0ee] mr-1'>3%</span>
-                            increase
+                            상향
                         </p>
                     </div>
                 </li>

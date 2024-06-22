@@ -10,8 +10,8 @@ const Inquiry = () => {
             <section className='pb-[60px] pt-10 slg:pt-20'>
                 <div className='mt-20 max-w-[660px] slg:max-w-[1000px] mx-auto w-[93.6%]'>
                     <div className='flex justify-between items-center'>
-                        <h1 className='text-black f-pretendard-b text-xl'>Inquiry Bulletin Board</h1>
-                            <Link href="#" className='h-auto text-center w-fit p-3 rounded-xl bg-[#f0f2f5] text-lg f-pretendard-b flex justify-center items-center'>Write</Link>
+                        <h1 className='text-black f-pretendard-b text-xl'>문의 게시판</h1>
+                            <Link href="#" className='h-auto text-center w-fit p-3 rounded-xl bg-[#f0f2f5] text-lg f-pretendard-b flex justify-center items-center'>작성하기</Link>
                     </div>
 
                     <ul className='grid grid-cols-1 md:grid-cols-2 slg:grid-cols-3 gap-1 md:gap-3 mt-5'>

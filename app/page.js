@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <Membership />
       <Event />
-      <PartnerExchanges text="Official Partner Exchanges" />
+      <PartnerExchanges text="공식 제휴 거래소" />
       <Paidback />
       <ApplyPartner />
       <Footer />

@@ -7,32 +7,33 @@ const Experincetabs = () => {
   const tabs = [
     {
       number: 1,
-      title: "Join",
-      description: "using the link below provided by Tetherrock",
+      title: "테더락에서 제공하는",
+      description: "아래 링크로 가입을 해주세요",
       image: "/assets/animation_01.png"
     },
     {
       number: 2,
-      title: "On Tetherrock",
-      description: "Enter your UID",
+      title: "테더락에서",
+      description: "UID를 입력해 주세요",
       image: "/assets/animation_02.png"
     },
     {
       number: 3,
-      title: "As usual",
-      description: "Enjoy your trading to your heart's content",
+      title: "평소와 같이",
+      description: "트레이딩을 마음껏 즐겨주세요",
       image: "/assets/animation_03.png"
     },
     {
       number: 4,
-      title: "After trading",
-      description: "You can get back your payback",
+      title: "트레이딩 이후",
+      description: "페이백을 환급 받으세요",
       image: "/assets/animation_04.png"
     }
   ];
   return (
     <section className='mt-[100px] slg:mt-[120px]'>
-      <h2 className=' break-keep text-[32px] f-pretendard-b text-center text-white'>Enjoy an optimized fee payback experience on Tetherrock</h2>
+      <h2 className=' break-keep text-[32px] f-pretendard-b text-center text-white'>테더락에서 <br/>
+      최적화된 수수료 페이백 경험을 이용해 보세요</h2>
 
       <div className='max-w-[660px] lg:max-w-[984px] mx-auto mt-[60px] lg:mt-10 w-[93.6%] gap-5 flex justify-between flex-col lg:flex-row'>
         <div className='w-full lg:w-[50%] bg-[#12171e] rounded-[20px] flex justify-center items-center'>

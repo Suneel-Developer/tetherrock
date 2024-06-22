@@ -9,7 +9,7 @@ const Exchange = () => {
         <main>
             <Navbar />
             <div className='pt-20'>
-                <PartnerExchanges text="Partner Exchanges" />
+                <PartnerExchanges text="공식 제휴 거래소" />
                 <Paidback />
                 <Footer />
             </div>

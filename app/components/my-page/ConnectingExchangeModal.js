@@ -21,7 +21,7 @@ const ConnectingExchangeModal = ({ onClose }) => {
             <div className="bg-white rounded-[0.5rem] px-6 py-8 max-w-[412px] w-full mx-auto" onClick={(e) => e.stopPropagation()}>
                 <form>
                     <div className='flex justify-between items-center gap-2'>
-                        <p className='text-2xl f-pretendard-b text-black'>Connecting Exchanges</p>
+                        <p className='text-2xl f-pretendard-b text-black'>거래소 연동하기</p>
                         <button onClick={onClose} type='button'>
                             <img src="/assets/close.png" alt="close" className='w-4 h-4' />
                         </button>
@@ -50,9 +50,9 @@ const ConnectingExchangeModal = ({ onClose }) => {
                         )}
 
                     </div>
-                    <input className=" mt-[17px] p-5 outline-none bg-[#f0f2f5] rounded-xl w-full h-[62px] text-lg f-pretendard-b" type="text" name="uid" placeholder="Enter your UID of exchange" autoComplete="off" required="" />
+                    <input className=" mt-[17px] p-5 outline-none bg-[#f0f2f5] rounded-xl w-full h-[62px] text-lg f-pretendard-b" type="text" name="uid" placeholder="거래소 UID를 입력해주세요" autoComplete="off" required="" />
                     <div className='mt-[170px]'>
-                        <button type='button' className='text-sm f-pretendard-m text-center bg-[#f0f2f5] rounded-[30px] flex justify-center items-center h-[42px] w-full text-[#7c8389]'>Connect UID</button>
+                        <button type='button' className='text-sm f-pretendard-m text-center bg-[#f0f2f5] rounded-[30px] flex justify-center items-center h-[42px] w-full text-[#7c8389]'>연동 신청</button>
                     </div>
                 </form>
             </div>

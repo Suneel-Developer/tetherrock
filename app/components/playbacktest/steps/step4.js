@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Step4 = ({ frequency, setFrequency, handleNext }) => {
-    const options = ['1 time/day', '1~2 times/day', '2-5 times/day', '5-10 times/day', '+10 times/day'];
+    const options = ['하루 1회 정도', '하루 1~2회 정도', '하루 2~5회 정도', '하루 5~10회 정도', '하루 10회 이상'];
 
     return (
         <div className='pt-10 bg-white pb-[60px] max-w-[660px] w-full mx-auto px-1'>
-            <h2 className='text-center text-xl mx-auto f-pretendard-b tracking-[-0.8px]'>See more of the benefits you can enjoy <br /> depending on the number of trading you make</h2>
+            <h2 className='text-center text-xl mx-auto f-pretendard-b tracking-[-0.8px]'>거래 횟수에 따라 드릴 수 있는 <br />
+                혜택을 더 확인해 볼 수 있어요</h2>
             <ul className='w-full xxsm:w-[351px] slg:w-[580px] gap-3 md:gap-5 mt-7 mx-auto grid grid-cols-2 slg:grid-cols-3'>
                 {options.map((option) => (
                     <li
@@ -23,7 +24,7 @@ const Step4 = ({ frequency, setFrequency, handleNext }) => {
                     className={`w-full slg:w-[351px] h-[42px] flex justify-center items-center text-sm f-pretendard-m rounded-[30px] ${frequency ? 'bg-black text-white' : 'bg-[#f0f2f5] text-[#7c8389]'}`}
                     disabled={!frequency}
                 >
-                    Next
+                    다음
                 </button>
             </div>
         </div>

@@ -36,7 +36,8 @@ const Hero = () => {
             <div className='w-[93.6%] max-w-[1000px] mx-auto'>
                 <div className="flex lg:items-end flex-col lg:flex-row-reverse justify-between max-w-[640px] mx-auto">
                     <img className="w-[67px] lg:w-[98px] h-[44px] lg:h-[64px] relative -top-[10px]" src="/assets/wallet.png" />
-                    <h1 className="text-[32px] f-pretendard-b leading-[1.31] mt-[18px] lg:mt-0">Experience everything in payback Easier and faster on Tetherrock!</h1>
+                    <h1 className="text-[32px] f-pretendard-b leading-[1.31] mt-[18px] lg:mt-0">페이백의 모든 것 <br/>
+                    테더락에서 쉽고 빠르게</h1>
                 </div>
 
                 <div className='relative block w-full max-w-[660px] mt-10 mx-auto'>
@@ -62,7 +63,7 @@ const Hero = () => {
                             )}
                         </div>
 
-                        <input type="text" placeholder='Enter your exchange UID' className='ml-5 mr-1 w-[calc(100%-164px)] text-sm lg:text-xl tracking-[-0.8px] border-none f-pretendard-b outline-none bg-transparent h-full' />
+                        <input type="text" placeholder='거래소 UID를 입력해 주세요' className='ml-5 mr-1 w-[calc(100%-164px)] text-sm lg:text-xl tracking-[-0.8px] border-none f-pretendard-b outline-none bg-transparent h-full' />
                         <button className='w-5 lg:w-8 h-5 lg:h-8'>
                             <img src="/assets/search.png" alt="search" className='w-full object-cover block' />
                         </button>

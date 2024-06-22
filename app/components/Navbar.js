@@ -47,11 +47,11 @@ const Navbar = () => {
                     {/* Desktop Links  */}
                     <div className='hidden slg:block'>
                         <ul className='flex items-center ml-11 gap-3'>
-                            <li><Link href="#" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>Notice</Link></li>
-                            <li><Link href="/exchange" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>Partner Exchanges</Link></li>
-                            <li><Link href="/service" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>Service</Link></li>
+                            <li><Link href="#" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>공지사항</Link></li>
+                            <li><Link href="/exchange" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>공식 제휴 거래소</Link></li>
+                            <li><Link href="/service" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>서비스 소개</Link></li>
                             <li><Link href="/vip" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>VIP</Link></li>
-                            <li><Link href="/playback-test" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>Payback Test</Link></li>
+                            <li><Link href="/playback-test" className='f-pretendard-b text-base text-sky-blue text-nowrap tracking-[-0.64px]'>페이백 테스트</Link></li>
                         </ul>
                     </div>
 
@@ -60,25 +60,25 @@ const Navbar = () => {
                         <div className={`block slg:hidden fixed top-0 left-0 right-0 w-full h-screen bg-white z-[-2] ${menuClass}`}>
                             <div className='max-w-[660px] slg:max-w-[1100px] m-auto w-[88.266666%] pt-[122px]'>
                                 <div className='flex items-center'>
-                                    <Link href="/login" className='bg-blue_100 text-white border-none w-[82px] h-10 flex justify-center items-center text-sm font-medium f-pretendard-m text-center rounded-[30px]'>Login</Link>
-                                    <Link href="/signup" className='bg-white text-blue_100 border border-blue_100 w-[82px] h-10 flex justify-center items-center text-sm f-pretendard-m font-medium text-center rounded-[30px] ml-2'>Join</Link>
+                                    <Link href="/login" className='bg-blue_100 text-white border-none w-[82px] h-10 flex justify-center items-center text-sm font-medium f-pretendard-m text-center rounded-[30px]'>로그인</Link>
+                                    <Link href="/signup" className='bg-white text-blue_100 border border-blue_100 w-[82px] h-10 flex justify-center items-center text-sm f-pretendard-m font-medium text-center rounded-[30px] ml-2'>회원가입</Link>
 
                                     {/* If user login then show  */}
                                     {/* <Link href="/my-page" className='bg-blue_100 text-white border-none w-[82px] h-10 hidden slg:flex justify-center items-center text-sm font-medium f-pretendard-m text-center rounded-[30px]'>My Info</Link> */}
                                 </div>
                                 <ul className='mt-[50px]'>
-                                    <li><Link href="#" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>Notice</Link></li>
-                                    <li className='mt-8'><Link href="/exchange" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>Partner Exchanges</Link></li>
-                                    <li className='mt-8'><Link href="/service" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>Service</Link></li>
+                                    <li><Link href="#" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>공지사항</Link></li>
+                                    <li className='mt-8'><Link href="/exchange" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>공식 제휴 거래소</Link></li>
+                                    <li className='mt-8'><Link href="/service" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>서비스 소개</Link></li>
                                     <li className='mt-8'><Link href="/vip" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>VIP</Link></li>
-                                    <li className='mt-8'><Link href="/playback-test" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>Payback Test</Link></li>
+                                    <li className='mt-8'><Link href="/playback-test" className='f-pretendard-b text-2xl text-sky-blue text-nowrap tracking-[-0.96px]'>페이백 테스트</Link></li>
                                 </ul>
                             </div>
                         </div>
                     )}
                     <div className='flex slg:ml-10 relative items-center'>
-                        <Link href="/login" className='bg-blue_100 text-white border-none w-[82px] h-10 hidden slg:flex justify-center items-center text-sm font-medium f-pretendard-m text-center rounded-[30px]'>Login</Link>
-                        <Link href="/signup" className='bg-white text-blue_100 border border-blue_100 w-[82px] h-10 hidden slg:flex justify-center items-center text-sm f-pretendard-m font-medium text-center rounded-[30px] ml-2'>Join</Link>
+                        <Link href="/login" className='bg-blue_100 text-white border-none w-[82px] h-10 hidden slg:flex justify-center items-center text-sm font-medium f-pretendard-m text-center rounded-[30px]'>로그인</Link>
+                        <Link href="/signup" className='bg-white text-blue_100 border border-blue_100 w-[82px] h-10 hidden slg:flex justify-center items-center text-sm f-pretendard-m font-medium text-center rounded-[30px] ml-2'>회원가입</Link>
 
                         {/* If user login then show  */}
                         {/* <Link href="/my-page" className='bg-blue_100 text-white border-none w-[82px] h-10 hidden slg:flex justify-center items-center text-sm font-medium f-pretendard-m text-center rounded-[30px]'>My Info</Link> */}
